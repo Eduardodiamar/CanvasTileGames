@@ -291,7 +291,7 @@ function fill(playerTiles){
                       condition8? scoreUp(1,colorsListP2): scoreDown(1)
                 break;
             case 9:
-                document.location.href= '../html/tempIndex.html'
+                document.location.href= '../index.html'
                 break;
             case 10:
                 !isPaused? stopPlaying() : resumePlaying()

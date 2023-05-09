@@ -268,7 +268,7 @@ function buttonPressed(button){
                   condition4? scoreUp(): scoreDown()
             break;
         case 5:
-            document.location.href= '../html/tempIndex.html'
+            document.location.href= '../index.html'
             break;
         case 6:
             !isPaused? stopPlaying() : resumePlaying()
