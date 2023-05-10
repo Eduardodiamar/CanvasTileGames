@@ -100,7 +100,7 @@ document.onkeyup = (k) => {
                 document.getElementById('menu1').style.display = 'block'
                 document.getElementById('playerName').focus()
             }else if(selectedOption === 1){
-                document.location.href= '../html/multiplayer.html'
+                document.location.href= '/html/multiplayer.html'
             }else if(selectedOption == 2){
                 isOptions = true
                 keyLimitState = true
@@ -164,7 +164,7 @@ document.onkeyup = (k) => {
         if(k.key === 'Enter'){
             dificultySelector('startGame')
             console.log('start game');
-            document.location.href= '../html/game.html'
+            document.location.href= '/html/game.html'
         }
 
     }
